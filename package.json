@@ -1,6 +1,6 @@
 {
   "name": "@ficusjs/testing",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0",
   "description": "Helper functions for component testing",
   "type": "module",
   "main": "src/index.mjs",
