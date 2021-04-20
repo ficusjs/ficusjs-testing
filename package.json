@@ -1,0 +1,39 @@
+{
+  "name": "@ficusjs/testing",
+  "version": "1.0.0-alpha.0",
+  "description": "Helper functions for component testing",
+  "type": "module",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "lint": "standard \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ficusjs/ficusjs-testing.git"
+  },
+  "keywords": [
+    "ficusjs",
+    "frontend",
+    "web-components",
+    "testing"
+  ],
+  "author": "Matt Levy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ficusjs/ficusjs-testing/issues"
+  },
+  "homepage": "https://github.com/ficusjs/ficusjs-testing#readme",
+  "dependencies": {
+    "jsdom": "16.5.2"
+  },
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs"
+    }
+  }
+}
