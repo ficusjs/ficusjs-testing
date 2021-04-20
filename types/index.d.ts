@@ -1,2 +1,2 @@
 export declare function init (): void
-export declare function render (tagName: string, importer: () => Promise<void>): void
+export declare function render<T> (tagName: string, importer: () => Promise<void>): T
