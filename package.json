@@ -8,7 +8,8 @@
   "types": "types/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "lint": "standard \"src/**/*.js\""
+    "lint": "standard \"src/**/*.mjs\"",
+    "test": "ava \"test/**/*.spec.mjs\""
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,9 @@
     "jsdom": "20.0.1"
   },
   "devDependencies": {
+    "@ficusjs/core": "1.4.0",
+    "@ficusjs/renderers": "5.2.0",
+    "ava": "4.3.3",
     "standard": "16.0.4"
   },
   "exports": {
