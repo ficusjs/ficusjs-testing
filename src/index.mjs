@@ -1,7 +1,7 @@
 import { JSDOM } from 'jsdom'
 
-export function init () {
-  const dom = new JSDOM('<!DOCTYPE html><html><head></head><body></body></html>')
+export function init (options = {}) {
+  const dom = new JSDOM('<!DOCTYPE html><html><head></head><body></body></html>', options)
   globalThis.dom = dom
   globalThis.Node = dom.Node
   globalThis.window = dom.window

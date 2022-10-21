@@ -30,7 +30,16 @@ import test from 'ava'
 import { init, render } from '@ficusjs/testing'
 
 test.before(init)
+
+// if passing options to JSDOM
+test.before(() => init({ runScripts: 'dangerously' }))
 ```
+
+The `init` function accepts the following optional arguments:
+
+| Name       | Type     | Description                           |
+|------------|----------|---------------------------------------|
+| `options`  | `object` | An object of options to pass to JSDOM |
 
 ### render function
 
@@ -52,9 +61,9 @@ test('render basic component', async t => {
 
 The `render` function accepts the following arguments:
 
-| Name | Type | Description |
-| --- | --- | --- |
-| `tagName` | `string` | The web component tag name |
+| Name       | Type       | Description                                                            |
+|------------|------------|------------------------------------------------------------------------|
+| `tagName`  | `string`   | The web component tag name                                             |
 | `importer` | `function` | A function that registers a web component. This can return a `Promise` |
 
 ## Testing components
