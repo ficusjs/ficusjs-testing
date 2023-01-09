@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ficusjs/ficusjs-testing#readme",
   "dependencies": {
-    "jsdom": "20.0.3"
+    "jsdom": "21.0.0"
   },
   "devDependencies": {
     "@ficusjs/core": "3.1.2",
