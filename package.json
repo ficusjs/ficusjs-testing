@@ -1,6 +1,6 @@
 {
   "name": "@ficusjs/testing",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Helper functions for component testing",
   "type": "module",
   "main": "src/index.mjs",
@@ -28,12 +28,12 @@
   },
   "homepage": "https://github.com/ficusjs/ficusjs-testing#readme",
   "dependencies": {
-    "jsdom": "20.0.3"
+    "jsdom": "22.1.0"
   },
   "devDependencies": {
     "@ficusjs/core": "3.1.2",
-    "@ficusjs/renderers": "5.7.0",
-    "ava": "5.1.0",
+    "@ficusjs/renderers": "5.8.0",
+    "ava": "5.3.1",
     "standard": "16.0.4"
   },
   "exports": {

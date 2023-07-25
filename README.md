@@ -54,8 +54,8 @@ import { init, render } from '@ficusjs/testing'
 test.before(init)
 
 test('render basic component', async t => {
-    const comp = await render('basic-comp', () => import('../src/component.mjs'))
-    t.is(comp.querySelector('p').textContent, 'Basic component')
+    const comp = await render('basic-comp', () => import('../src/component.mjs'), { foo: 'bar' })
+    t.is(comp.querySelector('p').textContent, 'Basic component with bar')
 })
 ```
 
@@ -65,6 +65,7 @@ The `render` function accepts the following arguments:
 |------------|------------|------------------------------------------------------------------------|
 | `tagName`  | `string`   | The web component tag name                                             |
 | `importer` | `function` | A function that registers a web component. This can return a `Promise` |
+| `attrs`    | `object`   | An optional object of attributes to set on the component instance      |
 
 ## Testing components
 
