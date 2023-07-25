@@ -1,6 +1,6 @@
 {
   "name": "@ficusjs/testing",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Helper functions for component testing",
   "type": "module",
   "main": "src/index.mjs",
