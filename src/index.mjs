@@ -5,7 +5,8 @@ export function init (options = {}) {
   globalThis.dom = dom
   globalThis.Node = dom.Node
   globalThis.window = dom.window
-  globalThis.document = dom.window.document
+  globalThis.document = window.document
+  globalThis.navigator = window.navigator
   globalThis.customElements = window.customElements
   globalThis.HTMLElement = window.HTMLElement
 }
