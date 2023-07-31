@@ -31,7 +31,7 @@
     "jsdom": "22.1.0"
   },
   "devDependencies": {
-    "@ficusjs/core": "3.1.2",
+    "@ficusjs/core": "3.1.4",
     "@ficusjs/renderers": "5.8.0",
     "ava": "5.3.1",
     "standard": "16.0.4"
