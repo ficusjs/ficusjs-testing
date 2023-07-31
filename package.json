@@ -34,7 +34,7 @@
     "@ficusjs/core": "3.1.2",
     "@ficusjs/renderers": "5.8.0",
     "ava": "5.3.1",
-    "standard": "16.0.4"
+    "standard": "17.1.0"
   },
   "exports": {
     ".": {
