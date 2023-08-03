@@ -67,6 +67,18 @@ The `render` function accepts the following arguments:
 | `importer` | `function` | A function that registers a web component. This can return a `Promise` |
 | `attrs`    | `object`   | An optional object of attributes to set on the component instance      |
 
+## Browser globals
+
+The following browser globals are available when using the [FicusJS testing](https://www.npmjs.com/package/@ficusjs/testing) package.
+
+- `dom`
+- `Node`
+- `window`
+- `document`
+- `navigator`
+- `customElements`
+- `HTMLElement`
+
 ## Testing components
 
 Testing web components can be done in a number of ways.
