@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@ficusjs/core": "3.1.4",
-    "@ficusjs/renderers": "5.8.1",
+    "@ficusjs/renderers": "5.9.0",
     "ava": "5.3.1",
     "standard": "17.1.0"
   },
